@@ -1,12 +1,8 @@
-const dudgns = {
-    name:"Choi younghoon",
-    age:26,
-    gender:"male"
-};
+import {people} from './db';
 
 const resolvers = {
-    Query:{
-        person: ()=> dudgns
+    Query:{ 
+        people : () => people
     }
 };
 
