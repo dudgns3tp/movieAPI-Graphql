@@ -6,7 +6,7 @@
 
 /users /GET 한다고 가정을 해보자.
 사용자의 이름만 가져오고싶은데 이름 이외에 나이, 주소, 연락처 까지 가져오는것을 over-fetching이라고 한다.
-일허게 쓸모없는 정보를 함께 받는것이 오버패칭이다. 상당히 비효율적이다. - graphql이 ㅐ해결 가능
+일허게 쓸모없는 정보를 함께 받는것이 오버패칭이다. 상당히 비효율적이다. - graphql이해결 가능
 
 ### Under-fetching
 
@@ -28,7 +28,7 @@ Graph-ql은 하나의 query에서 내가 원하는 정보만 받을 수 있다.
 이 모든 요청을 GraphQL에서는 한개의 query로 만들 수 있다.
 
 
-```javaScript
+```graphql
 Query {
     feed{
          comments
