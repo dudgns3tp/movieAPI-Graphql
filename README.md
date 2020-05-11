@@ -74,9 +74,13 @@ schema.graphql 에서는
 database 로부터 정보를 얻는다. 이것을 query라 부른다
 그 후 정보를 database로 보낸다. 즉 query는 내가 정보를 받을때만 쓰인다. 
 Mutation은 서버 ,db, 메모리에서서 정보를 바꾸는 작업을 할때..
+(데이터 베이스 상태가 변할 때 사용되어진다고 생각하면된다.)
 
 우리는 이제 graphql서버에서 할것은 어떤 mutations 과 query들을 
 resolve는 query를 해결(resolve) 하는 역할이다.
 
 query 와 resolver를 작성 해 주고 localhost:4000으로 접속하면 graphql playground가 나온다
 이는 Database를 테스트하게 해준다.
+
+GraphQL 서버와 REST API를 함께 사용해보자!
+> GraphQL을 가지고 어떻게 REST API를 감쌀까.. 잘 생각해보자.
